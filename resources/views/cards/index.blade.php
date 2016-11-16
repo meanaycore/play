@@ -8,7 +8,7 @@
 
   <div>
 
-      {{ $card->title }}
+      <a href="/cards/{{ $card->id }}"> {{ $card->title }} </a>
 
   </div>
 
